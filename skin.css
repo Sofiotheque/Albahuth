@@ -1166,3 +1166,124 @@ blockquote span,.tr_bq span{}
 -moz-user-select:none;/* Firefox all */
 -ms-user-select:none;/* IE 10+ */
 -o-user-select:none;user-select:none}
+
+/* CSS Sociale
+.social-counter-man{
+  padding: 0;
+  display: block;
+}
+
+.count{
+  display: block;
+  padding: 7px 0;
+  text-align: left;
+  transition: all 0.5s ease;
+}
+
+.count:hover{
+  background: rgba(0,0,0,0.033);
+  transform: scale(1.065);
+}
+
+.count .icon{
+  background: #aaa;
+  display: inline-block;
+  float: right;
+  color: white;
+  font-size: 22px;
+  margin-left: 5px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-shadow: 0 0 3px rgba(0,0,0,0.2);
+  display: table;
+}
+.count .icon i{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.count p{
+  display: inline-block;
+  font-size: 13px;
+  color: #ececec;
+  margin: 11px;
+}
+.count p span{
+  color: #f25643;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+.count .action-btn{
+  float: left;
+  display: inline-block;
+  background: #aaa;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 11px;
+}
+
+/*== COLORS ==*/
+.facebook .icon{background: #3b599900;border: 1px solid #3b5999;color: #3b5999;}
+.facebook .icon:hover{background: #3b5999;color: #fff;} 
+.facebook .action-btn{background:#3b5999;}
+.facebook .icon i{padding-top:2px;}
+.twitter .icon{background: #3b599900;border: 1px solid #55acee;color: #55acee;}
+.twitter .icon:hover{background: #55acee;color: #fff;} 
+.twitter .action-btn{background:#55acee;}
+.twitter .icon i{padding-top:2px;}
+.youtube .icon{background: #3b599900;border: 1px solid #cd201f;color: #cd201f;}
+.youtube .icon:hover{background: #cd201f;color: #fff;} 
+.youtube .action-btn{background:#cd201f;}
+.youtube .icon i{font-size:24px}
+.instagram .icon{background: #3b599900;border: 1px solid #e4405f;color: #e4405f;}
+.instagram .icon:hover{background: #e4405f;color: #fff;}
+.instagram .action-btn{background:#e4405f;}
+.instagram .icon i{font-size: 18px; padding-top: 1px;}
+.rss .icon{background:#f57d00;}
+.rss .action-btn{background:#f57d00;}
+.social-counter-2 .linkedin, .linkedin .icon,.linkedin .action-btn{background:#0077B5}
+.social-counter-2 .vimeo, .vimeo .icon,.vimeo .action-btn{background:#1ab7ea}
+.social-counter-2 .vk, .vk .icon,.vk .action-btn{background:#4c75a3}
+.social-counter-2 .tumblr, .tumblr .icon,.tumblr .action-btn{background:#34465d}
+.social-counter-2 .pinterest, .pinterest .icon,.pinterest .action-btn{background:#bd081c}
+.social-counter-2 .stumbleupon, .stumbleupon .icon,.stumbleupon .action-btn{background:#eb4924}
+.social-counter-2 .reddit, .reddit .icon,.reddit .action-btn{background:#ff5700}
+.social-counter-2 .yelp, .yelp .icon,.yelp .action-btn{background:#af0606}
+.social-counter-2 .weibo, .weibo .icon,.weibo .action-btn{background:#df2029}
+.social-counter-2 .producthunt, .producthunt .icon,.producthunt .action-btn{background:#da552f}
+.social-counter-2 .whatsapp, .whatsapp .icon,.whatsapp .action-btn{background:#25D366}
+.social-counter-2 .vine, .vine .icon,.vine .action-btn{background:#00b489}
+.social-counter-2 .slack, .slack .icon,.slack .action-btn{background:#3aaf85}
+.social-counter-2 .dribbble, .dribbble .icon,.dribbble .action-btn{background:#ea4c89}
+.social-counter-2 .flickr, .flickr .icon,.flickr .action-btn{background:#ff0084}
+.social-counter-2 .behance, .behance .icon,.behance .action-btn{background:#131418}
+.behance .icon i{font-size:18px;}
+.social-counter-2 .foursquare, .foursquare .icon,.foursquare .action-btn{background:#f94877}
+.social-counter-2 .snapchat, .snapchat .icon,.snapchat .action-btn{background:#FFFC00}
+.snapchat .icon i{font-size:24px;text-shadow: -1px 0 black,0 -1px black, 1px 0 black, 0 1px black}
+.snapchat .action-btn{text-shadow: 0 0 1px black}
+
+/* ANTI ADBLOCK */
+@keyframes fadeInDown{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}
+@keyframes rubberBand{from{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,0.75,1)}40%{transform:scale3d(0.75,1.25,1)}50%{transform:scale3d(1.15,0.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}to{transform:scale3d(1,1,1)}}
+#wdbloogablock{background:rgba(0,0,0,0.65);position:fixed;margin:auto;left:0;right:0;top:0;bottom:0;overflow:auto;z-index:999999;animation:fadeInDown 1s}
+#wdbloogablock .header {margin: 0 0 15px 0;box-shadow: 0 0 0 rgba(0,0,0,0.09);background: initial;}
+#wdbloogablock .inner{background:#e3482d;color:#fff;box-shadow:0 5px 20px rgba(0,0,0,0.1);text-align:center;width:600px;padding:20px;margin:5% auto 2% auto;position: relative}
+#wdbloogablock button{padding:10px 20px;border:0;background:rgba(0,0,0,0.15);color:#fff;margin:20px 5px;cursor:pointer;transition:all .3s}
+#wdbloogablock button:hover{background:rgba(0,0,0,0.35);color:#fff;outline:none}
+#wdbloogablock button.active,#wdbloogablock button:hover.active{background:#fff;color:#222;outline:none}
+#wdbloogablock .fixblock{background:#fff;text-align:right;color:#000;padding:20px;height:250px;overflow:auto;line-height:30px}
+#wdbloogablock .fixblock img {max-width: 100%;}
+#wdbloogablock .fixblock div{display:none}
+#wdbloogablock .fixblock div.active{display:block;animation:fadeInUp .5s}
+#wdbloogablock ol{margin-left:20px}
+#wdbloogref a {padding: 10px 20px;border: 0;background: rgba(0,0,0,0.15);color: #fff;cursor: pointer;transition: all .3s;display: block;    margin-top: 10px;}
+#wdbloogref a.bywdbloog {padding: 0;background: initial!important;display: inline-block;position: absolute;left: 20px;font-size: 9px;    margin: 0;}
+#wdbloogref a:hover {background: rgba(0,0,0,0.35);color: #fff;outline: none;}
+
